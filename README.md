@@ -5,16 +5,31 @@ PlatformIO and run on an Arduino Uno microcontroller.
 
 Hardware Requirements:
 
-- Arduino Uno
+- Arduino Uno R3 microcontroller
 - Parts list: https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=e3a21f7d7d
 
 Software Requirements:
 
 - ProjectIO core v5.1.0
 
+# Arduino Analog Pins
+
+The following **analog pins** on the Arduino Uno R3 board are defined as follows:
+
+- Pin 0 :: Root octave
+- Pin 1 :: Octave shift
+- Pin 2 :: N/A
+- Pin 3 :: Pulse control
+- Pin 4 :: Steps control
+- Pin 5 :: Sequential octaves control
+- Pin 6 :: Mode control
+- Pin 7 :: Order control
+
+Each pin is wired to a 10Kohms linear potentiometer allowing user to set the value of each control.
+
 # License & Authors
 
-Copyright 2019 https://github.com/raszhivin
+Copyright:: 2019 https://github.com/raszhivin
 
 Copyright:: 2021 TGW Consulting, LLC.
 
