@@ -1,11 +1,11 @@
 # MidiArpeggiator
 
 This project is based on https://github.com/raszhivin/arpeggio2 and has been refactored for
-PlatformIO and run on an Arduino Uno microcontroller.
+PlatformIO and run on an Arduino Nano microcontroller.
 
 Hardware Requirements:
 
-- Arduino Uno R3 microcontroller
+- Arduino Nano microcontroller
 - Parts list: https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=e3a21f7d7d
 
 Software Requirements:
