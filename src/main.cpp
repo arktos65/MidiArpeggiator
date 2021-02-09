@@ -12,7 +12,7 @@ MIDI_CREATE_DEFAULT_INSTANCE();
 #define modePin 6
 #define pulsePin 3
 
-#define LEDPin 13
+#define LEDPin 5  // Original value 13
 #define syncinpin 3
 
 #define buttonTimeout 3
