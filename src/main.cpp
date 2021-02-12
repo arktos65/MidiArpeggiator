@@ -4,15 +4,16 @@
 #include "arpeggio.h"
 #include "beats.h"
 MIDI_CREATE_DEFAULT_INSTANCE();
-#define rootOctavePin 0
-#define seqOctavePin 5
-#define octaveShiftpin 1
-#define stepsPin 4
-#define orderpin 7
-#define modePin 6
-#define pulsePin 3
+#define rootOctavePin 0         // Octave of tonic note
+#define octaveShiftpin 1        // Octave of chord
+#define pulsePin 2              // Delay (BPM)
+#define rootPin 3               // Root note (C..B)
+#define stepsPin 4              // Arp steps (1..5)            
+#define modePin 5               // Music mode (Ionian, Dorian, etc)
+#define seqOctavePin 6          // Sequence octave control
+#define orderpin 7              // Order control
 
-#define LEDPin 5  // Original value 13
+#define LEDPin 5
 #define syncinpin 3
 
 #define buttonTimeout 3
